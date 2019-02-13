@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>cafe</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light d-flex flex-lg-column flex-row">
+			<a class="navbar-brand" href="#">
+				<img src="./images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="ブランドロゴ">
+				moo cafe
+			</a>
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="ナビゲーションの切替">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item active px-4">
+						<a class="nav-link" href="#">TOP<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item px-4">
+						<a class="nav-link" href="#">MENU</a>
+					</li>
+					<li class="nav-item px-4">
+						<a class="nav-link" href="#">CONCEPT</a>
+					</li>
+					<li class="nav-item px-4">
+						<a class="nav-link" href="#">ACCESS</a>
+					</li>
+					<li class="nav-item px-4">
+						<a class="nav-link" href="#">CONTACT</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img class="d-block w-100 mx-auto" src="./images/carousel1.jpg" alt="第1スライド">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100 mx-auto" src="./images/carousel2.jpg" alt="第2スライド">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100 mx-auto" src="./images/carousel3.jpg" alt="第3スライド">
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">前へ</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">次へ</span>
+		</a>
+		</div>
+	</header>
+
+	<main>
+		<section id="menu" class="container">
+			<h2 class="heading">MENU</h2>
+			<div class="menu-boxes d-flex justify-content-between flex-wrap">
+				<a href="#" class="menu-box ">
+					<img src="./images/1303207.png" alt="" class="w-100">
+					<h3>HOT DRINK</h3>
+					<p>寒～い季節には暖かいコーヒーがおすすめ</p>
+				</a>
+				<a href="" class="menu-box ">
+					<img src="./images/1161355.png" alt="" class="w-100">
+					<h3>COLD DRINK</h3>
+					<p>疲れた体と頭に冷たくて甘いドリンクはいかがですか？</p>
+				</a>
+				<a href="" class="menu-box ">
+					<img src="./images/1072782.png" alt="" class="w-100">
+					<h3>BREAD</h3>
+					<p>ランチやおやつにおいしいパンもどうぞ</p>
+				</a>
+				<a href="" class="menu-box ">
+					<img src="./images/1174655.png" alt="" class="w-100">
+					<h3>SWEETS</h3>
+					<p>当店のスウィーツ、今はイチゴのロールケーキがおすすめです</p>
+				</a>
+			</div>
+		</section><!--menuここまで-->
+		<section id="concept">
+			<div class="concept-box container">
+				<h2 class="heading">私たちのこだわり</h2>
+				<div class="concept-box">
+					<img src="./images/1374066.png" alt="">
+					<p>私たちのお店のコンセプトは<br><br>
+					<span class="concept-message">
+						『おいしいコーヒーで、忙しくがんばるあなたに癒しを』
+					</span>
+					<br><br>コーヒーの入れ方にもこだわり、香りで癒し、味であなたを癒します。<br><br>また、空間にもこだわって、コーヒーをおともにゆったりとくつろいでいただけるようにスペース作りをしています。<br><br>ここでは時間をしばし忘れてリラックスしていってくださいね。</p>
+				</div>
+			</div>
+		</section><!--conceptここまで-->
+		<section id="access" class="container">
+			<h2 class="heading">ACCESS</h2>
+			<div class="access-box d-flex flex-sm-row flex-column justify-content-between flex-wrap">
+				<div class="iframe-wrap embed-responsive embed-responsive-1by1 ">
+					<iframe  class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1620.1906162765467!2d139.70191725817543!3d35.69223507343893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60186092cf48325d%3A0x24ac346bd72018a3!2z57SA5LyK5ZyL5bGL5pu45bqXIOaWsOWuv-acrOW6lw!5e0!3m2!1sja!2sjp!4v1544423457095" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div class="adress">
+					〒000-0000 東京都新宿区新宿３丁目〇ー〇ー〇<br><br>
+					tel:000-0000-0000
+				</div>
+			</div><!--accessここまで-->
+		</section>
+		<section class="contact container">
+			<h2 class="heading">CONTACT</h2>
+			<div class="contact-message">
+				貸し切りのご希望やメニューの要望などなんでもお気軽にお問い合わせくださいね。
+			</div>
+			<form>
+				<div class="form-group">
+					<label for="mail1">メールアドレス</label>
+					<input type="email" class="form-control" id="mail1" placeholder="メールアドレス">
+					<small id="emailHelp" class="form-text text-muted">私たちはあなたのメールを誰とも共有しません。</small>
+				</div>
+				<div class="form-group">
+					<label for="exampleFormControlTextarea1">お問い合わせ内容</label>
+					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary d-block mx-auto">送信</button>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light d-flex flex-column position-abusolute">
+				<!-- <div class="collapse navbar-collapse" id="footernavbarNav"> -->
+					<ul class="navbar-nav mx-auto d-flex">
+						<li class="nav-item active px-4">
+							<a class="nav-link" href="#">TOP<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item px-4">
+							<a class="nav-link" href="#">MENU</a>
+						</li>
+						<li class="nav-item px-4">
+							<a class="nav-link" href="#">CONCEPT</a>
+						</li>
+						<li class="nav-item px-4">
+							<a class="nav-link" href="#">ACCESS</a>
+						</li>
+						<li class="nav-item px-4">
+							<a class="nav-link" href="#">CONTACT</a>
+						</li>
+					</ul>
+				</div>
+		<!-- </nav> -->
+		<div class="copyrigth">
+			&copy; 2019 moo-cafe
+		</div>
+		</div>
+	</footer>
+
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+</body>
+</html>
